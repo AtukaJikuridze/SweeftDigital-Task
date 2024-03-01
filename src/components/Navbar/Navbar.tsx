@@ -14,12 +14,12 @@ export default function Navbar() {
           />
           <ul>
             <li>
-              <Link to={"Main"} className="roboto-regular">
+              <Link to={"/Main"} className="roboto-regular">
                 Main
               </Link>
             </li>
             <li>
-              <Link to={"History"} className="roboto-regular">
+              <Link to={"/History"} className="roboto-regular">
                 History
               </Link>
             </li>

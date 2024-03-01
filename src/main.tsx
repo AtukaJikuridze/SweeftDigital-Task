@@ -6,7 +6,7 @@ import { MyContextProvider } from "./Context/myContext.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <MyContextProvider>
-    <BrowserRouter>
+    <BrowserRouter basename="SweeftDigital-Task"> 
       <React.StrictMode>
         <App />
       </React.StrictMode>
