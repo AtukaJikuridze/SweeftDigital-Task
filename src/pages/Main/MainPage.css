@@ -16,12 +16,13 @@ main .search-main input {
 main .search-main input:focus {
   border-bottom: 1px solid black;
 }
-main .photos-flex {
+
+.photos-flex {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-main .photos-flex img {
+.photos-flex img {
   width: 24%;
   height: 300px;
   margin-bottom: 10px;

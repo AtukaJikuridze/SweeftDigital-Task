@@ -1,0 +1,22 @@
+.history-header {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  color: #2f1793;
+}
+.history-header .searched-elements {
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.history-header .searched-elements div {
+  background-color: #2f1793;
+  padding: 5px 20px;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 4px;
+  cursor: pointer;
+}/*# sourceMappingURL=History.css.map */
