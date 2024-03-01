@@ -1,0 +1,28 @@
+main .search-main {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .search-main input {
+  width: 300px;
+  padding: 14px 10px;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.377);
+  outline: none;
+  transition: 0.4s all ease;
+}
+main .search-main input:focus {
+  border-bottom: 1px solid black;
+}
+main .photos-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main .photos-flex img {
+  width: 24%;
+  height: 300px;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=MainPage.css.map */
